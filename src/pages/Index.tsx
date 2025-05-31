@@ -30,6 +30,9 @@ const Index = () => {
             <h1 className="text-5xl md:text-7xl font-black gradient-text float-animation">
               RAFFLERIZZ
             </h1>
+            <p className="text-sm md:text-base text-gray-500 mt-2 font-medium">
+              Developed by Vaibhav Gupta
+            </p>
             
             <div className="text-xl md:text-2xl text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
               <span className="font-semibold text-purple-600">Enter the Rizz Zone!</span> 
