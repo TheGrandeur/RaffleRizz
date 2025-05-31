@@ -51,4 +51,4 @@ Note: This frontend will interact with smart contracts using MetaMask and Chainl
 
 
 
-    Built with 💙 by Vaibhav Gupta.
+Built with 💙 by Vaibhav Gupta.
