@@ -40,7 +40,7 @@ const WhyItsFair = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="soft-card p-6 text-center hover:soft-glow transition-all duration-300">
+            <Card key={index} className="p-6 text-center transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:ring-2 hover:ring-purple-400">
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="font-semibold text-gray-800 mb-3">{feature.title}</h3>
               <p className="text-sm text-gray-600">{feature.description}</p>
@@ -49,7 +49,7 @@ const WhyItsFair = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <Card className="soft-card p-8 max-w-4xl mx-auto">
+          <Card className="p-8 max-w-4xl mx-auto transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:ring-2 hover:ring-purple-400">
             <h3 className="text-2xl font-semibold gradient-text mb-4">Powered by Chainlink VRF</h3>
             <p className="text-gray-600 leading-relaxed">
               Chainlink VRF (Verifiable Random Function) provides cryptographically secure randomness that cannot be predicted or manipulated by anyone, including us. Every random number is generated on-chain with mathematical proof of its fairness, making Rafflerizz the most transparent raffle platform in crypto.

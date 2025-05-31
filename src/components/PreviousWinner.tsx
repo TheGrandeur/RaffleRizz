@@ -7,7 +7,7 @@ const PreviousWinner = () => {
   const previousWinner = {
     address: '0x742...f96E',
     prize: '10 ETH',
-    timestamp: '2 hours ago'
+    timestamp: '1 hours ago'
   };
 
   return (

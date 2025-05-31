@@ -51,7 +51,7 @@ const HowItWorks = () => {
         <div className="grid md:grid-cols-5 gap-8">
           {steps.map((step, index) => (
             <div key={step.number} className="text-center">
-              <Card className="soft-card p-6 h-full">
+              <Card className="p-6 h-full transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:ring-2 hover:ring-purple-400">
                 <div className="text-4xl mb-4">{step.icon}</div>
                 <div className="bg-gradient-to-r from-purple-400 to-pink-400 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-4">
                   {step.number}

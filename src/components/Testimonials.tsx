@@ -56,7 +56,7 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="soft-card p-6 hover:soft-glow transition-all duration-300">
+            <Card key={index} className="soft-card p-6 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:ring-2 hover:ring-purple-400">
               <div className="flex items-start space-x-4">
                 <div className="text-2xl">{testimonial.avatar}</div>
                 <div className="flex-1">
