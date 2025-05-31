@@ -80,6 +80,7 @@ const Footer = () => {
         <div className="border-t border-purple-100 mt-12 pt-8 text-center">
           <p className="text-gray-600 text-sm">
             © 2024 Rafflerizz. Built for Gen Z, powered by blockchain. Play responsibly.
+            Built with 💙 by Vaibhav Gupta.
           </p>
         </div>
       </div>
